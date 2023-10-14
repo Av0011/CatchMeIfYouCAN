@@ -34,3 +34,8 @@ function ChangePos(event){
     }
     
 }
+
+function Disappear(){
+    let b = document.getElementById('button');
+    b.style.display = 'none';
+}
