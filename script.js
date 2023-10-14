@@ -34,8 +34,10 @@ function ChangePos(event){
     }
     
 }
+let b = document.getElementById('button');
+b.addEventListener('click',Disappear)
+
 
 function Disappear(){
-    let b = document.getElementById('button');
     b.style.display = 'none';
 }
